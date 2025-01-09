@@ -9,9 +9,9 @@ import { ProSidebarProvider } from 'react-pro-sidebar';
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <BrowserRouter>
-<ProSidebarProvider>
+
   <App />
-  </ProSidebarProvider>
+
     </BrowserRouter>
   </StrictMode>,
 )
